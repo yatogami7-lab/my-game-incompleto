@@ -1,0 +1,213 @@
+@font-face {
+    font-family: "norse";
+    src: url(Norsebold.otf);
+}
+
+body {
+    background-color: rgb(4, 121, 4);
+    font-family: "norse", sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1;
+
+}
+
+button {
+    font-family: "norse", sans-serif;
+    font-size: 20px;
+    background-color: rgb(129, 206, 6);
+    
+}
+
+button:hover{
+    border: 3px ridge, rgb(255, 0, 0);
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    background-color: brown;
+    max-height: 500px;
+}
+
+.divi {
+    width: 100%;
+    height: 530px; /* Set a height for the container */
+}
+
+
+
+#frase {
+    margin: 0%;
+}
+
+.espada {
+    display: none;
+}
+
+.espada.ativa {
+    display: inline-block;
+}
+
+.arco {
+    display: none;
+}
+
+.arco.ativa {
+    display: inline-block;
+}
+
+.adaga {
+    display: none;
+}
+
+.adaga.ativa {
+    display: inline-block;
+}
+
+.machado {
+    display: none;
+}
+
+.machado.ativa {
+    display: inline-block;
+}
+
+.marreta {
+    display: none;
+}
+
+.marreta.ativa {
+    display: inline-block;
+}
+
+.soqueira {
+    display: none;
+}
+
+.soqueira.ativa {
+    display: inline-block;
+}
+
+.magia {
+    display: none;
+}
+
+.magia.ativa {
+    display: inline-block;
+}
+
+.tridente {
+    display: none;
+}
+
+.tridente.ativa {
+    display: inline-block;
+}
+
+.vinhas {
+    display: none;
+}
+
+.vinhas.ativa {
+    display: inline-block;
+}
+
+.magiaplanta {
+    display: none;
+}
+
+.magiaplanta.ativa {
+    display: inline-block;
+}
+
+.passei {
+    display: none;
+}
+
+.passei.ativa {
+    display: inline-block;
+}
+
+.falhei {
+    display: none;
+}
+
+.falhei.ativa {
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+
+.morreu.ativa {
+    display: none
+}
+
+.morreu.ativo {
+    display: none
+}
+
+.magiapedra {
+    display: none;
+}
+
+.magiapedra.ativa {
+    display: inline-block;
+}
+
+.tentativa1 {
+    display: none
+}
+.tentativa1.ativa {
+    display:inline-block;
+    color: red;
+}
+
+.Hades {
+    color: rgb(101, 9, 20);
+    text-align: justify;
+}
+
+.combate.ativa {
+    display: none;
+}
+
+.combateA {
+    display: none;
+}
+
+.combateA.ativa {
+    display:block;
+    
+}
+
+.venceu {
+    font-size: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 89, 255);
+}
+
+.venceuA {
+    font-size: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jogos.css">
+    <title>Máquinas de Guerra RPG</title>
+</head>
+<body>
+    
+<main>
+    
+        <div class="passo ativo" id="passo-0">
+            <div class="divi"> <img id="imagem-0" src="florestajogos.jpeg" alt="floresta"><p id="frase">floresta de kuyamba</p></div>
+            <div class="cont"><p>Uma guerra de anos  está prestes a acabar pois <span class="tentativa1">ei, voce já esteve aqui antes não esteve</span> você, meu bravo guerreiro, ira encerra-la, escolha sua arma de confiança</p>
+            <button class="btn-proximo" id="arma-1" data-proximo="1" p="1"><input type="image" src="espadajogos.jpeg"  style="max-height:32px;">espada </button>
+            <button class="btn-proximo" id="arma-2" data-proximo="2" p="2"><input type="image" src="arcojogos.jpeg"  style="max-height:32px;">arco e flecha</button>
+            <button class="btn-proximo" id="arma-3" data-proximo="3" p="3"><input type="image" src="adagajogos.jpeg"  style="max-height:32px;">adagas</button>
+            <button class="btn-proximo" id="arma-4" data-proximo="4" p="4"><input type="image" src="machadojogos.jpeg"  style="max-height:32px;">machado</button>
+            <button class="btn-proximo" id="arma-5" data-proximo="5" p="5"><input type="image" src="marretajogos.jpeg"  style="max-height:32px;">marreta</button>
+            <button class="btn-proximo" id="arma-6" data-proximo="6" p="6"><input type="image" src="soqueirajogos.jpeg"  style="max-height:32px;">soqueira</button>
+            <button class="btn-proximo" id="arma-7" data-proximo="7" p="7"><input type="image" src="livrojogos.jpeg"  style="max-height:32px;">livro de magia</button>
+            <button class="btn-proximo" id="arma-8" data-proximo="8" p="8"><input type="image" src="tridentejogos.jpeg"  style="max-height:32px;">tridente</button>
+            </div>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você escolheu a espada , uma arma básica de velocidade média e poder de ataque médio</p>
+            <div> <img class="mapa-0" src="mapa1jogos.jpeg" alt=""></div>
+            <p>agora siga seu caminho, você se encontra aqui na floresta de kuyamba, você pode ir para o pantano de kudya ou para o deserto de mphamvu</p>
+            <button class="btn-proximo mapa-1"  data-proximo="9">ir para o pantano de kudya</button>
+            <button class="btn-proximo mapa-2"  data-proximo="10">ir para o deserto de mphamvu</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você escolheu a adaga, uma arma curta de velocidade alta e poder de ataque baixo</p>
+            <div> <img class="mapa-0" src="mapa1jogos.jpeg" alt=""></div>
+            <p>agora siga seu caminho, você se encontra aqui na floresta de kuyamba, você pode ir para o pantano de kudya ou para o deserto de mphamvu</p>
+            <button class="btn-proximo mapa-1"  data-proximo="9">ir para o pantano de kudya</button>
+            <button class="btn-proximo mapa-2"  data-proximo="10">ir para o deserto de mphamvu</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Você escolheu o machado, uma arma básica de velocidade baixa e poder de ataque médio, pode ser lançada</p>
+            <div> <img class="mapa-0" src="mapa1jogos.jpeg" alt=""></div>
+            <p>agora siga seu caminho, você se encontra aqui na floresta de kuyamba, você pode ir para o pantano de kudya ou para o deserto de mphamvu</p>
+            <button class="btn-proximo mapa-1"  data-proximo="9">ir para o pantano de kudya</button>
+            <button class="btn-proximo mapa-2"  data-proximo="10">ir para o deserto de mphamvu</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Você escolheu a marreta, uma arma larga de velocidade baixa e poder de ataque alto</p>
+            <div> <img class="mapa-0" src="mapa1jogos.jpeg" alt=""></div>
+            <p>agora siga seu caminho, você se encontra aqui na floresta de kuyamba, você pode ir para o pantano de kudya ou para o deserto de mphamvu</p>
+            <button class="btn-proximo mapa-1"  data-proximo="9">ir para o pantano de kudya</button>
+            <button class="btn-proximo mapa-2"  data-proximo="10">ir para o deserto de mphamvu</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Você escolheu a soqueira, uma arma corpo a corpo de velocidade alta e poder de ataque baixo, não precisa de reparos e não é perdivel</p>
+            <div> <img class="mapa-0" src="mapa1jogos.jpeg" alt=""></div>
+            <p>agora siga seu caminho, você se encontra aqui na floresta de kuyamba, você pode ir para o pantano de kudya ou para o deserto de mphamvu</p>
+            <button class="btn-proximo mapa-1"  data-proximo="9">ir para o pantano de kudya</button>
+            <button class="btn-proximo mapa-2"  data-proximo="10">ir para o deserto de mphamvu</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Você escolheu o livro de magia, com ele é possível lançar feitiços conhecidos</p>
+            <div> <img class="mapa-0" src="mapa1jogos.jpeg" alt=""></div>
+            <p>agora siga seu caminho, você se encontra aqui na floresta de kuyamba, você pode ir para o pantano de kudya ou para o deserto de mphamvu</p>
+            <button class="btn-proximo mapa-1"  data-proximo="9">ir para o pantano de kudya</button>
+            <button class="btn-proximo mapa-2"  data-proximo="10">ir para o deserto de mphamvu</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Você escolheu o tridente, uma arma larga de velocidade média e poder de ataque médio, pode ser lançada</p>
+            <div> <img class="mapa-0" src="mapa1jogos.jpeg" alt=""></div>
+            <p>agora siga seu caminho, você se encontra aqui na floresta de kuyamba, você pode ir para o pantano de kudya ou para o deserto de mphamvu</p>
+            <button class="btn-proximo mapa-1"  data-proximo="9">ir para o pantano de kudya</button>
+            <button class="btn-proximo mapa-2"  data-proximo="10">ir para o deserto de mphamvu</button>
+            <p id="mP">O tridente te permite ter acesso ao mar de kutalika</p>
+            <button class="btn-proximo mapa-3"  data-proximo="11">ir para o mar de kutalika</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você escolheu o arco e flecha, uma arma a distância de velocidade média e poder de ataque médio</p>
+            <div> <img class="mapa-0" src="mapa1jogos.jpeg" alt=""></div>
+            <p>agora siga seu caminho, você se encontra aqui na floresta de kuyamba, você pode ir para o pantano de kudya ou para o deserto de mphamvu</p>
+            <button class="btn-proximo mapa-1"  data-proximo="9">ir para o pantano de kudya</button>
+            <button class="btn-proximo mapa-2"  data-proximo="10">ir para o deserto de mphamvu</button>
+            <p>o arco te permite permanecer na froresta de kuyamba</p>
+            
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você segue encontro ao pantano de kudya, seu objetivo é ficar forte o suficiente para enfrentar o jenereta yankhondo e encerrar a guerra</p>
+            <div> <img  src="pantanojogos.jpeg" alt=""></div>
+            <p class="magia mavinha"> por ter um livro de magia, voce identifica um circulo mágico na região</p>
+            <button class=" magia aperta" id="controlar-plantas" >aprender circulo </button>
+            <p class="machado monstro" >Você percebe que as vinhas da região podem ser cortadas pelo seu machado e coletadas</p>
+            <button class=" machado aperta" id="vinha">cortar vinhas</button>
+            <p> voce se encontra em um dilema, qual lado deve seguir</p>
+            <button class="btn-proximo"  data-proximo="12">esquerda </button>
+            <button class="btn-proximo" data-proximo="13">direita</button>
+        </div>
+        <div class="passo" id="passo-12">
+            <p class="putz">Você segue encontro a esquerda e se encontra em uma situação semelhante á anterior</p>
+            <div> <img  src="pantanojogos.jpeg" alt=""></div>
+            <p> voce se encontra em um dilema, qual lado deve seguir</p>
+            <button class=" p1"  data-proximo="12">esquerda </button>
+            <button class=" p2" data-proximo="13">direita</button>
+        </div>
+        <div class="passo" id="passo-13">
+            <p class="putz">Você segue encontro a direita e se encontra em uma situação semelhante á anterior</p>
+            <div> <img  src="pantanojogos.jpeg" alt=""></div>
+            <p> voce se encontra em um dilema, qual lado deve seguir</p>
+            <button class=" p1"  data-proximo="12">esquerda </button>
+            <button class=" p2" data-proximo="13">direita</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você segue encontro ao deserto de mphamvu, seu objetivo é ficar forte o suficiente para enfrentar o jenereta yankhondo e encerrar a guerra</p>
+            <div> <img  class="desert" src="desertojogos.jpeg" alt=""></div>
+            <p class="magia monstro"> por ter um livro de magia, voce identifica que o oasís é uma ilusão magica</p>
+            <button class=" magia aperta">desfazer ilusão </button>
+            <p> ao horizonte voce encherga caminhos que poderia seguir</p>
+            <button class="btn-proximo"  data-proximo="15">velhas ruinas </button>
+            <button class="btn-proximo vip monster" data-proximo="16">oasís</button>
+        </div>
+        <div class="passo" id="passo-16">
+            <p class="morreu"> o oasis era uma criatura que te ataca com fome, MUITA FOME</p>
+            <div class="morreu"><img  src="Pavão do deserto.jpeg"></div>
+            <button class="combate" id="iniciarC"> COMBATE</button>
+            <p class="combateA morreu" id="combateM"></p>
+            <p class="combateA morreu" id="combateR"> eu</p>
+            <button class="combateA morreu" id="A"> Atacar</button> <button class="combateA" id="E"> esquivar </button>
+            <p class="falhei">Você morreu</p>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p>Voce adentra o mar de kutalika, seu objetivo é ficar forte o suficiente para enfrentar o jenereta yankhondo e encerrar a guerra</p>
+            <div><img src="marjogos.jpeg" alt=""> </div>
+            <p>O mar é misterioso e tais mistérios te chamam, escolha o segredo que quer descobrir e pague o preço</p>
+            <button class="btn-proximo" data-proximo="18">seguir sussuros do mar</button>
+            <button class="btn-proximo" data-proximo="17">atender chamado dos monstros</button>
+        </div>
+        <div class="passo" id="passo-18">
+            <p>Voce segue os sussuros e encontra uma concha intrigante</p>
+            <div><img src="marjogos.jpeg" alt=""> </div>
+            <p>Voce coloca ela no ouvido e ela diz:</p>
+            <p> -A resposta para a pergunta da estátua é 'humano'</p>
+            <p>Logo em seguida voce é expluso do mar por um poder misterioso e é impedido de voltar</p>
+            <button class="btn-proximo mE" data-proximo="8">seguir caminho</button>
+        </div>
+        <div class="passo" id="passo-17">
+            <p>No fundo do mar, escuro, sombrio, sem cor, olhos vermelhos se revelam</p>
+            <div><img src="marjogos.jpeg" alt=""> </div>
+            <p>- Pobre ser, imortal, infeliz para sempre, por pena lhe darei um conselho, não pegue atalhos, está avisado</p>
+            <p>A criatura em troca, come parte da sua carne, voce foge para superficie e ao olhar para o mar novamente voce encherga a criatura aguardando o seu retorno</p>
+            <button class="btn-proximo mE" data-proximo="8">seguir caminho</button>
+        </div>
+
+        <div class="passo" id="passo-14">
+            <p>Voce adentra a floresta de kuyamba, seu objetivo é ficar forte o suficiente para enfrentar o jenereta yankhondo e encerrar a guerra</p>
+            <div><img class="florest" src="florestajogos.jpeg" alt=""></div>
+            <p class="monstro">Voce sente a sede de sangue no verde, e ele é seu, escolha uma presa para sacia-la</p>
+            <button class="btn-proximo vipa" data-proximo="19" >espirito guia</button>
+            <button class="btn-proximo vipo" data-proximo="20" >guardiao da floresta</button>
+        </div>
+        
+        <div class="passo" id="passo-15">
+            <p>Já nas ruínas o calor do deserto e as paredes estreitas te causam aflição</p>
+            <div><img id="ruinas" src="https://www.loucoporviagens.com.br/wp-content/uploads/2017/10/como-é-uma-pirâmide-por-dentro-saqqara.jpg" alt=""></div>
+            <p class="marreta">a parede ao lado indica ter rachaduras que a façam ceder</p> 
+            <button class="btn-proximo marreta " id="controlar-pedra" data-proximo="23">quebrar parede e entrar</button>
+            <p class="Mespinho ">as paredes formam corredores para dois caminhos</p>
+            <button class="btn-proximo" data-proximo="21" id="espinho">equilíbrio entre espinhos</button>
+            <button class="btn-proximo" data-proximo="22" id="estátua">grande estátua </button>
+        </div>
+
+        <div class="passo" id="passo-21">
+            <p class="morreu">voce segue o caminho de equilibrio entre espinhos</p>
+            <div class="morreu"><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1fb61aaf-43da-47b0-92f4-dff1316a0638/dfu93d3-104e7e7d-24f7-488d-af46-f0d80f0c361a.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzFmYjYxYWFmLTQzZGEtNDdiMC05MmY0LWRmZjEzMTZhMDYzOFwvZGZ1OTNkMy0xMDRlN2U3ZC0yNGY3LTQ4OGQtYWY0Ni1mMGQ4MGYwYzM2MWEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Q6n8QIbgtGMEkM7SRcdG_MVJe_mqrd2bDDZ3dE2xmV4"></div>
+            <p class="morreu">consiga equilibrar-se 3 vezes e passara com facilidade</p>
+            <button class="d20 morreu">equilibrar-se</button>
+            <p class="resulto morreu"></p>
+            <button class="btn-proximo passei" id="hades" data-proximo="24">continuar</button>
+            <p class="falhei">você morreu</p>
+        </div>
+        <div class="passo" id="passo-22">
+            <div class="morreu"><img src="https://i.pinimg.com/564x/dd/84/4e/dd844ec8a00d7253d8d54913765cf940.jpg"></div>
+            <p class="morreu">A grande estátua fala com voce:</p>
+            <p class="morreu">curioso és tu por ruinas estas adentrar, minha charada solucione ou morte encontrara</p>
+            <p class="morreu">diga-me o que que de manha tem 4 pernas, de tarde tem 2 pernas e de dia 3 pernas possui, a resposta é apenas uma palavra</p>
+            <input class="morreu" type="text" id="guess"/>
+            <button class="morreu" onclick="checar()">responder</button>
+            <p id="resposta"></p>
+            <p class="falhei">você morreu</p>
+            <button class="btn-proximo passei" data-proximo="25">continuar</button>
+        </div>
+        <div class="passo" id="passo-23">
+            <p class="fin">Você adentra a parede quebrada e encontra um bau</p>
+            <div><img id="acabou" src="https://cdna.artstation.com/p/assets/images/images/042/904/110/large/kelly-yang-asset.jpg?1635777034"></div>
+            <p class="fin">ao abrir o bau voce encontra uma relíquia antiga que te da a capacidade de dominar a terra</p>
+            <p class="fin">as ruinas começam a desmoronar e voce corre para fora</p>
+            <p class="fin">contudo ao sair voce se encontra em uma completa penumbra e diante de voce</p>
+            <p class="fin"> ele aparece</p>
+            <p class="falhei">você morreu</p>
+            <button class="fim" data-proximo="">fugir</button>
+            <button class="fim" data-proximo="">fugir</button>
+            <button class="fim" data-proximo="">fugir</button>
+            <button class="fim" data-proximo="">fugir</button>
+            <button class="fim" data-proximo="">fugir</button>
+            <button class="fim" data-proximo="">fugir</button>
+            <button class="fim" data-proximo="">fugir</button>
+            <button class="fim" data-proximo="">fugir</button>
+        </div>
+        <div class="passo" id="passo-24">
+            <p class="morreu">voce passa pelos espinhos e encontra uma passgem intrigante</p>
+            <div class="morreu"><img  src="https://static.wixstatic.com/media/4d2eb8_b40d7b1e8e5d3e13f9daabe8be7e99e7.png/v1/fill/w_316,h_270,al_c,lg_1/4d2eb8_b40d7b1e8e5d3e13f9daabe8be7e99e7.png" alt=""></div>
+            <p class="morreu">Você se encontra em um caminho sem volta nos portoes do tartaros</p>
+            <p class="morreu">Hades o deus grego da morte se apresenta com uma proposta</p>
+            <p class="Hades morreu"> - Mortal eu possuo negócios inacabados com seu alvo de guerra, portanto pretendo ajuda-lo</p>
+            <p class="Hades morreu"> - me conceda sua vida e eu lhe concederei minha benção, quando cumprir sua parte sua vida será devolvida</p>
+            <p class="Hades morreu"> - portanto, temos um acordo</p>
+            <button class="morreu" id="dadivaH">aceitar a dadiva de Hades</button>
+            <p class="falhei">Você morreu</p>
+        </div>
+        <div class="passo" id="passo-25">
+            <p class="combate">Voce efetivamente conclui o desafio da grande estátua e segue seu percurso</p>
+            <div class="morreu"><img src="https://th.bing.com/th/id/OIP.8XWsEoBcVb9wcMR2ZwwMTwHaDn?w=1907&h=931&rs=1&pid=ImgDetMain"></div>
+            <p class="combate">No fim do grande corredor voce nota um objeto cintilante. Do objeto surge um ser, um gênio</p>
+            <p class="combate"> - ola caro ser, vejo que tu es digno de ascender a um desejo, já imagino que deve ser a derrota de seu oponente, contudo, não será de graça</p>
+            <p class="combate"> Me vença em um combate e logo seu desejo se realizara</p>
+            <button class="combate" id="iniciarC"> COMBATE</button>
+            <p class="combateA morreu" id="combateM"></p>
+            <p class="combateA morreu" id="combateR"> eu</p>
+            <button class="combateA morreu" id="A"> Atacar</button> <button class="combateA" id="E"> esquivar </button>
+            <p class="falhei">Você morreu</p>
+        </div>
+        <div class="passo" id="passo-26">
+            <p>voce derrota o genio e tem seu desejo realizado</p>
+            <div><img src="https://ceblog.s3.amazonaws.com/wp-content/uploads/2012/10/power-words-online-advertising.jpg"></div>
+            <p class="venceu">PARABENS, VOCE, MEU CARO, ENCERROU A GUERRA <span class="venceuA">POR ENQUANTO</span></p>
+        </div>
+</main>
+<script src="jogos.js"></script>
+
+</body>
+</html>
